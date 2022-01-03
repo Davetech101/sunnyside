@@ -15,7 +15,7 @@ body{
 }
 
 .header{
-    background-image: url(/images/desktop/image-header.jpg);
+    background-image: url(./images/desktop/image-header.jpg);
     background-size: cover;
     background-position:  center ;
     height: 100vh;
@@ -117,7 +117,7 @@ body{
 
 
 .section-1-right{
-    background-image: url(/images/desktop/image-transform.jpg);
+    background-image: url(./images/desktop/image-transform.jpg);
     height: 100%;
     width: 50%;
     background-position: center;
@@ -171,7 +171,7 @@ body{
 }
 
 .section-2-left{
-    background-image: url(/images/desktop/image-stand-out.jpg);
+    background-image: url(./images/desktop/image-stand-out.jpg);
     height: 100%;
     width: 50%;
     background-position: center;
@@ -187,7 +187,7 @@ body{
 .section-3-left{
     width: 50%;
     height: 100%;
-    background-image: url(/images/desktop/image-graphic-design.jpg);
+    background-image: url(./images/desktop/image-graphic-design.jpg);
     background-size: cover;
     position: relative;
 }
@@ -212,7 +212,7 @@ body{
 .section-3-right{
     width: 50%;
     height: 100%;
-    background-image: url(/images/desktop/image-photography.jpg);
+    background-image: url(./images/desktop/image-photography.jpg);
     background-size: cover;
     position: relative;
 }
@@ -371,28 +371,28 @@ body{
 }
 
 .section-5 .first{
-    background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+    background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
     width: 25%;
     height: 100%;
     background-size: cover;
 }
 
 .section-5 .second{
-    background-image: url(/images/desktop/image-gallery-orange.jpg);
+    background-image: url(./images/desktop/image-gallery-orange.jpg);
     width: 25%;
     height: 100%;
     background-size: cover;
 }
 
 .section-5 .third{
-    background-image: url(/images/desktop/image-gallery-cone.jpg);
+    background-image: url(./images/desktop/image-gallery-cone.jpg);
     width: 25%;
     height: 100%;
     background-size: cover;
 }
 
 .section-5 .fourth{
-    background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+    background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
     width: 25%;
     height: 100%;
     background-size: cover;
@@ -418,8 +418,8 @@ body{
 
 .footer .img{
    background-color:  hsl(167, 40%, 24%);
-   mask-image: url(/images/logo.svg);
-   -webkit-mask-image:  url(/images/logo.svg);
+   mask-image: url(./images/logo.svg);
+   -webkit-mask-image:  url(./images/logo.svg);
    mask-size: cover;
    -webkit-mask-size: cover;
    width: 16rem;
@@ -459,8 +459,8 @@ body{
 
 .fbhov{
     background-color: #fff;
-    mask-image: url(/images/icon-facebook.svg);
-    -webkit-mask-image: url(/images/icon-facebook.svg);
+    mask-image: url(./images/icon-facebook.svg);
+    -webkit-mask-image: url(./images/icon-facebook.svg);
     mask-size: cover;
     -webkit-mask-size: cover;
     mask-repeat: no-repeat;
@@ -479,8 +479,8 @@ body{
 
 .ighov{
     background-color: #fff;
-    mask-image: url(/images/icon-instagram.svg);
-    -webkit-mask-image: url(/images/icon-instagram.svg);
+    mask-image: url(./images/icon-instagram.svg);
+    -webkit-mask-image: url(./images/icon-instagram.svg);
     mask-size: cover;
     -webkit-mask-size: cover;
     mask-repeat: no-repeat;
@@ -501,10 +501,11 @@ body{
     background-color: #fff;
     position: absolute;
     top: 0;
-    opacity: 0;mask-image: url(/images/icon-twitter.svg);
+    opacity: 0;
+    mask-image: url(./images/icon-twitter.svg);
     width: 120%;
     height: 2rem;
-    -webkit-mask-image: url(/images/icon-twitter.svg);
+    -webkit-mask-image: url(./images/icon-twitter.svg);
     mask-size: cover;
     -webkit-mask-size: cover;
     mask-repeat: no-repeat;
@@ -517,8 +518,8 @@ body{
 
 .pinhov{
     background-color: #fff;
-    mask-image: url(/images/icon-pinterest.svg);
-    -webkit-mask-image: url(/images/icon-pinterest.svg);
+    mask-image: url(./images/icon-pinterest.svg);
+    -webkit-mask-image: url(./images/icon-pinterest.svg);
     mask-size: cover;
     -webkit-mask-size: cover;
     mask-repeat: no-repeat;
@@ -662,7 +663,7 @@ body{
 
         
     .header{
-        background-image: url(/images/desktop/image-header.jpg);
+        background-image: url(./images/desktop/image-header.jpg);
         background-size: cover;
         background-position:  center ;
         height: 95vh;
@@ -728,7 +729,7 @@ body{
     
 
     .section-1-right{
-        background-image: url(/images/desktop/image-transform.jpg);
+        background-image: url(./images/desktop/image-transform.jpg);
         min-height: 30rem;
         width: 100%;
         background-position: center;
@@ -783,7 +784,7 @@ body{
     }
     
     .section-2-left{
-        background-image: url(/images/mobile/image-stand-out.jpg);
+        background-image: url(./images/mobile/image-stand-out.jpg);
         height: 50%;
         width: 100%;
         background-position: center;
@@ -800,7 +801,7 @@ body{
     .section-3-left{
         width: 100%;
         min-height: 60rem;
-        background-image: url(/images/desktop/image-graphic-design.jpg);
+        background-image: url(./images/desktop/image-graphic-design.jpg);
         background-size: cover;
         background-position: center;
     }
@@ -818,7 +819,7 @@ body{
     .section-3-right{
         width: 100%;
         min-height: 60rem;
-        background-image: url(/images/desktop/image-photography.jpg);
+        background-image: url(./images/desktop/image-photography.jpg);
         background-size: cover;
         background-position: center center;
     }
@@ -906,25 +907,25 @@ body{
     }
     
     .section-5 .first{
-        background-image: url(/images/desktop/image-gallery-milkbottles.jpg);
+        background-image: url(./images/desktop/image-gallery-milkbottles.jpg);
         width: 50%;
         background-size: cover;
     }
     
     .section-5 .second{
-        background-image: url(/images/desktop/image-gallery-orange.jpg);
+        background-image: url(./images/desktop/image-gallery-orange.jpg);
         width: 50%;
         background-size: cover;
     }
     
     .section-5 .third{
-        background-image: url(/images/desktop/image-gallery-cone.jpg);
+        background-image: url(./images/desktop/image-gallery-cone.jpg);
         width: 50%;
         background-size: cover;
     }
     
     .section-5 .fourth{
-        background-image: url(/images/desktop/image-gallery-sugarcubes.jpg);
+        background-image: url(./images/desktop/image-gallery-sugarcubes.jpg);
         width: 50%;
         background-size: cover;
     }
@@ -943,8 +944,8 @@ body{
 
     .footer .img{
         background-color:  hsl(167, 40%, 24%);
-        mask-image: url(/images/logo.svg);
-        -webkit-mask-image:  url(/images/logo.svg);
+        mask-image: url(./images/logo.svg);
+        -webkit-mask-image:  url(./images/logo.svg);
         mask-size: cover;
         -webkit-mask-size: cover;
         width: 16rem;
